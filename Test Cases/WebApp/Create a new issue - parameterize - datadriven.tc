@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: This is the 1st issue
+Description: Should be handled asap</description>
+   <name>Create a new issue - parameterize - datadriven</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>de8d560e-daf7-4d6a-bac9-7f1dc24dbd42</testCaseGuid>
+   <variable>
+      <defaultValue>'System dashboard'</defaultValue>
+      <description></description>
+      <id>26ae61f5-7acb-497d-b28e-e0534e151852</id>
+      <masked>false</masked>
+      <name>homepage_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is my issue'</defaultValue>
+      <description></description>
+      <id>80c6262f-3626-4277-8adb-17e089221de4</id>
+      <masked>false</masked>
+      <name>issue_sum</name>
+   </variable>
+   <variable>
+      <defaultValue>'It needs to be fixed asap'</defaultValue>
+      <description></description>
+      <id>2a99cfab-bb52-49f4-aba6-75e16e26a584</id>
+      <masked>false</masked>
+      <name>issue_desc</name>
+   </variable>
+</TestCaseEntity>

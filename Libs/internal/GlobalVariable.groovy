@@ -24,6 +24,11 @@ public class GlobalVariable {
      */
     public static Object api
      
+    /**
+     * <p></p>
+     */
+    public static Object encrypted_password
+     
 
     static {
         try {
@@ -34,6 +39,7 @@ public class GlobalVariable {
             username = selectedVariables['username']
             password = selectedVariables['password']
             api = selectedVariables['api']
+            encrypted_password = selectedVariables['encrypted_password']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

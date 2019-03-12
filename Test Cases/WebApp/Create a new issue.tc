@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: This is the 1st issue
+Description: Should be handled asap</description>
+   <name>Create a new issue</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>1217ea94-bbc3-4d6b-9e1c-2d5f3910b631</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>87e659bf-307b-40e8-b658-e6981ada17f4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

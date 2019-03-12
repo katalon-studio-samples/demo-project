@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Login
+Description: Scenario: Logging in with valid credentials
+ Given I am at the Account/Login page
+  When I fill the account email textbox with value 'myname@mymail.com'
+   And I fill the password textbox with value 'mypassword'
+   And I click the login button
+  Then I should be at the home page</description>
+   <name>PAR-2</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:[],&quot;customfield_10007&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;Portfolio for Jira must be licensed for the Parent Link to be available.&quot;}},&quot;customfield_10009&quot;:&quot;0|i0595j:&quot;},&quot;status&quot;:{&quot;id&quot;:10022,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://katalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/status/10022&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/project/10007&quot;,&quot;key&quot;:&quot;PAR&quot;,&quot;id&quot;:10007,&quot;name&quot;:&quot;ParkMobile&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Login&quot;,&quot;description&quot;:&quot;Scenario: Logging in with valid credentials\r\n Given I am at the Account/Login page\r\n  When I fill the account email textbox with value \u0027myname@mymail.com\u0027\r\n   And I fill the password textbox with value \u0027mypassword\u0027\r\n   And I click the login button\r\n  Then I should be at the home page&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;demo@katalon.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Demo Katalon&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/user?accountId\u003d5b16af37286de61ad456f9a5&quot;,&quot;name&quot;:&quot;demo&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/PAR-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/40643&quot;,&quot;key&quot;:&quot;PAR-2&quot;,&quot;id&quot;:40643}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>d0d2588e-4da6-4c88-975d-e7f06f25ab45</testCaseGuid>
+</TestCaseEntity>

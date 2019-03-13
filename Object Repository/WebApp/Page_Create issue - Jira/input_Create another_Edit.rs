@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='create-issue-submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@title = 'Press undefined+s to submit this form' and @id = 'create-issue-submit' and @name = 'Edit' and @type = 'submit']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

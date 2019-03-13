@@ -16,6 +16,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1')
 
 WebUI.setText(findTestObject('Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'), 
@@ -39,6 +41,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/WebApp/Page_System dashb
 
 WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard'), 'System dashboard')
 
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem'))
 
 WebUI.setText(findTestObject('Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'), 'This is my issue')
@@ -49,9 +52,11 @@ WebUI.click(findTestObject('Object Repository/WebApp/Page_Create issue - Jira/in
 
 WebUI.click(findTestObject('Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue'), 'This is my issue')
+WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue'), 
+    'This is my issue')
 
-WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap'), 'It needs to be fixed asap')
+WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap'), 
+    'It needs to be fixed asap')
 
 WebUI.closeBrowser()
 

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//textarea[@id='description']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'description' and @name = 'description']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

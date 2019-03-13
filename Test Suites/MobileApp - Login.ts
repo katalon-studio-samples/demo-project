@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MobileApp/Log in</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a19b5bce-c0d4-4a48-ae8e-24e834495c0f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MobileApp/Search</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

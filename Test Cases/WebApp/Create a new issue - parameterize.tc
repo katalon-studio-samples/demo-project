@@ -21,7 +21,7 @@ Description: Should be handled asap</description>
       <name>issue_sum</name>
    </variable>
    <variable>
-      <defaultValue>'It needs to be fixed asap'</defaultValue>
+      <defaultValue>'It needs to be fixed asap.'</defaultValue>
       <description></description>
       <id>2ffc4be9-69a9-4a43-acc7-855afa98cd05</id>
       <masked>false</masked>

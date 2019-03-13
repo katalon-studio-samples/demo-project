@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='dashboard-content']/div/div/div/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'System dashboard' or . = 'System dashboard')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

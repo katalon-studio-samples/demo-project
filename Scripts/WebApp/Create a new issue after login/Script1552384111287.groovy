@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/WebApp/Page_System dashboard - Jir
 WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue'),
 	issue_sum)
 
-WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap'),
-	issue_desc)
+WebUI.verifyElementText(findTestObject('Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap - params', ['issue_desc' : issue_desc]), 
+    issue_desc)
 
 WebUI.closeBrowser()

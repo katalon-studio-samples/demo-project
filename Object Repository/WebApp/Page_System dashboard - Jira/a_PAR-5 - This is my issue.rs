@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='aui-flag-container']/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/browse/PAR-5' and (text() = 'PAR-5 - This is my issue' or . = 'PAR-5 - This is my issue')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

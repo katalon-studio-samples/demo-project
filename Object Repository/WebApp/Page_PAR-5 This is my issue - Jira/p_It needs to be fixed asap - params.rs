@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_It needs to be fixed asap</name>
+   <name>p_It needs to be fixed asap - params</name>
    <tag></tag>
-   <elementGuidId>5f061c8a-db7e-4d58-879b-e84e42806315</elementGuidId>
+   <elementGuidId>03900285-7323-48c7-b13e-a9670cfe793a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p
-[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]</value>
+         <value>//p[.='${issue_desc}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,17 +19,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>p
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>It needs to be fixed asap</value>
+      <value>//p[.='${issue_desc}']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

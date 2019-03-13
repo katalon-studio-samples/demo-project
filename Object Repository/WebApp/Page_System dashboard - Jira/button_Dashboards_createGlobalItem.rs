@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//button[@id='createGlobalItem']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'createGlobalItem']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;createGlobalItem&quot;)</value>
+      <value>//button[.//span[contains(@aria-label, 'Create')]]//span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

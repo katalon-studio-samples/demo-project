@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>4281509b-0e0c-4c51-a325-1b2df7dae4cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebApp/Create a new issue - parameterize</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,13 +70,13 @@
    <testCaseLink>
       <guid>d8119a6b-a291-4c6e-a79b-660ae1f4b02b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebApp/PAR-2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>86322d7f-4d8b-4252-a69a-ef553183b7f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebApp/Create a new issue - recording</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -88,13 +88,13 @@
    <testCaseLink>
       <guid>51eeb56e-46df-4e4d-a570-4a29b399f7b7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebApp/PAR-1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>702d9c63-4ea7-4674-a105-4616536f2359</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebApp/Create a new issue - call test cases</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

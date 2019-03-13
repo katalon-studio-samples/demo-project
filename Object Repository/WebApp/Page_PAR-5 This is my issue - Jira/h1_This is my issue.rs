@@ -6,11 +6,15 @@
    <elementGuidId>953927c1-b61c-4484-ab6f-310fdbc366d2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//h1[starts-with(@class, 'sc-')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='jira-frontend']/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/h1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,18 +24,18 @@
       <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-edbWYL eKtjrz</value>
+      <value>sc-</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>This is my issue</value>
+      <value> </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

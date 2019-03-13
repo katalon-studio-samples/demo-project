@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a new issue after login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64636140-e49e-45a9-bc76-96f1843c2fa8</testCaseGuid>
+   <variable>
+      <defaultValue>'This is my issue'</defaultValue>
+      <description></description>
+      <id>80c6262f-3626-4277-8adb-17e089221de4</id>
+      <masked>false</masked>
+      <name>issue_sum</name>
+   </variable>
+   <variable>
+      <defaultValue>'It needs to be fixed asap'</defaultValue>
+      <description></description>
+      <id>2a99cfab-bb52-49f4-aba6-75e16e26a584</id>
+      <masked>false</masked>
+      <name>issue_desc</name>
+   </variable>
+</TestCaseEntity>

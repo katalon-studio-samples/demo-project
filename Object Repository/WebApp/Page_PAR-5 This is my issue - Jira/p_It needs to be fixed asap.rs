@@ -6,11 +6,15 @@
    <elementGuidId>5f061c8a-db7e-4d58-879b-e84e42806315</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='jira-frontend']/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

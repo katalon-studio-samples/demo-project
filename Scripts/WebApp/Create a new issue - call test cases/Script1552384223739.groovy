@@ -15,6 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('WebApp/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('WebApp/Create a new issue after login'), [('issue_sum') : 'This is my issue', ('issue_desc') : 'It needs to be fixed asap'],
-	FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WebApp/Create a new issue after login'), [('issue_sum') : 'This is my issue', ('issue_desc') : 'It needs to be fixed asap'], 
+    FailureHandling.STOP_ON_FAILURE)
 

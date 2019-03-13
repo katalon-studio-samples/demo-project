@@ -15,6 +15,23 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-1419262793268635088.groovy</name>
+			<type>1</type>
+			<location>/var/folders/42/25_dz67d0s90tq1kph29hdy00000gp/T/Katalon/Web Services/kat-1419262793268635088.groovy</location>
+		</link>
+		<link>
+			<name>kat-462105888327762366.groovy</name>
+			<type>1</type>
+			<location>/var/folders/42/25_dz67d0s90tq1kph29hdy00000gp/T/Katalon/Web Services/kat-462105888327762366.groovy</location>
+		</link>
+		<link>
+			<name>kat-8715199005292693511.groovy</name>
+			<type>1</type>
+			<location>/var/folders/42/25_dz67d0s90tq1kph29hdy00000gp/T/Katalon/Web Services/kat-8715199005292693511.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1552361469500</id>

@@ -6,12 +6,12 @@
    <elementGuidId>953927c1-b61c-4484-ab6f-310fdbc366d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h1[starts-with(@class, 'sc-')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='jira-frontend']/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[starts-with(@class, 'sc-')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

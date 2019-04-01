@@ -3,7 +3,7 @@
    <description></description>
    <name>Divide</name>
    <tag></tag>
-   <elementGuidId>47571712-7d85-4555-9362-3b766cf5a970</elementGuidId>
+   <elementGuidId>cd371c70-a64e-4615-95ac-62bacbb16859</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>

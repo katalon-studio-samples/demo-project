@@ -3,7 +3,7 @@
    <description></description>
    <name>Subtract</name>
    <tag></tag>
-   <elementGuidId>a644add6-3bb7-47b3-a490-2708dc1b6de7</elementGuidId>
+   <elementGuidId>75c0c0b0-5c8a-4569-848a-7b5a9a00f950</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>

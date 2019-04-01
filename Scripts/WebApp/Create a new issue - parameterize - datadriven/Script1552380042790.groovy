@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/WebApp/Page_Sign in to your accoun
 WebUI.setEncryptedText(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'), 
     GlobalVariable.encrypted_password)
 
+GlobalVariable.encrypted_password
+
 WebUI.click(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9'))
 
 WebUI.click(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9'))

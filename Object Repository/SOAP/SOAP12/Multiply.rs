@@ -3,7 +3,7 @@
    <description></description>
    <name>Multiply</name>
    <tag></tag>
-   <elementGuidId>56ff34c0-9f9a-4764-aa8c-b95c46d5dd81</elementGuidId>
+   <elementGuidId>e5d85474-f300-4ee0-8f83-9ed78b7f64f7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>

@@ -14,7 +14,7 @@
          <value>//input[@title = 'Press undefined+s to submit this form' and @id = 'create-issue-submit' and @name = 'Edit' and @type = 'submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

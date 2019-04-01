@@ -30,8 +30,12 @@ WebUI.setText(findTestObject('Object Repository/WebApp/Page_Log in to continue -
 
 WebUI.click(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'), 
-    'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y')
+//WebUI.setEncryptedText(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'), 
+//    'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y')
+
+WebUI.setText(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'),
+	'sPiHQ&YEa6ST`de+')
+
 
 WebUI.click(findTestObject('Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9'))
 

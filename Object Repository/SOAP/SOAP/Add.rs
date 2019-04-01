@@ -3,7 +3,7 @@
    <description></description>
    <name>Add</name>
    <tag></tag>
-   <elementGuidId>a49908ab-63ba-416d-8afb-d9d9d1f60e6d</elementGuidId>
+   <elementGuidId>3f8b4787-326a-4b09-a605-71e1d6f58b81</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -39,6 +39,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
+WS.verifyElementText(response, 'AddResponse.AddResult', '3')
 WS.verifyElementText(response, 'AddResponse.AddResult', '3')</verificationScript>
    <wsdlAddress>http://www.dneonline.com/calculator.asmx?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

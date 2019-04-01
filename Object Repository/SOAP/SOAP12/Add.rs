@@ -3,7 +3,7 @@
    <description></description>
    <name>Add</name>
    <tag></tag>
-   <elementGuidId>a581ac19-7ac4-4e2b-8bfa-c8ecc738a001</elementGuidId>
+   <elementGuidId>b15531f9-a5b3-498b-ae31-309346aa9c78</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>

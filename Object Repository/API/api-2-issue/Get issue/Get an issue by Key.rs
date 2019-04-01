@@ -41,6 +41,8 @@ WS.verifyResponseStatusCode(response, 200)
 
 
 WS.verifyElementPropertyValue(response, 'fields.summary', &quot;This is the 1st issue&quot;)
-WS.verifyElementPropertyValue(response, 'fields.description', &quot;Should be handled asap&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'fields.description', &quot;Should be handled asap&quot;)
+WS.verifyElementPropertyValue(response, 'fields.summary', &quot;This is the 1st issue&quot;)
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
